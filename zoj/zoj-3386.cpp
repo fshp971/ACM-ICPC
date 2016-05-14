@@ -16,7 +16,7 @@ const int maxn = 1e5;
 
 struct node
 {
-	int ll,rr,sum,mx,mn;
+	int ll,rr,sum,mx;
 }tree[maxn*6+10];
 
 int n,arr[maxn+10];
@@ -28,7 +28,7 @@ void build(int x,int ll,int rr)
 	tree[x].ll = ll; tree[x].rr = rr;
 	if(ll==rr)
 	{
-		tree[x].mx = tree[x].mn = arr[ll];
+		tree[x].mx = arr[ll];
 		tree[x].sum = (int)nico[arr[ll]];
 		return;
 	}
@@ -36,7 +36,6 @@ void build(int x,int ll,int rr)
 	build(x*2,ll,mid); build(x*2+1,mid+1,rr);
 	tree[x].sum = tree[x*2].sum + tree[x*2+1].sum;
 	tree[x].mx = max(tree[x*2].mx, tree[x*2+1].mx);
-	tree[x].mn = min(tree[x*2].mn, tree[x*2+1].mn);
 	return;
 }
 
@@ -57,7 +56,7 @@ void update(int x,int ll,int rr,int md)
 	if(tree[x].ll == tree[x].rr)
 	{
 		arr[tree[x].ll] %= md;
-		tree[x].mx = tree[x].mn = arr[tree[x].ll];
+		tree[x].mx = arr[tree[x].ll];
 		tree[x].sum = (int)nico[tree[x].mx];
 		return;
 	}
@@ -66,7 +65,6 @@ void update(int x,int ll,int rr,int md)
 	if(rr>mid) update(x*2+1,ll,rr,md);
 	tree[x].sum = tree[x*2].sum + tree[x*2+1].sum;
 	tree[x].mx = max(tree[x*2].mx, tree[x*2+1].mx);
-	tree[x].mn = min(tree[x*2].mn, tree[x*2+1].mn);
 	return;
 }
 
@@ -75,7 +73,7 @@ void add(int x,int poi,int dat)
 	if(tree[x].ll == tree[x].rr)
 	{
 		arr[poi] = dat;
-		tree[x].mx = tree[x].mn = arr[poi];
+		tree[x].mx = arr[poi];
 		tree[x].sum = (int)nico[arr[poi]];
 		return;
 	}
@@ -84,7 +82,6 @@ void add(int x,int poi,int dat)
 	else add(x*2+1,poi,dat);
 	tree[x].sum = tree[x*2].sum + tree[x*2+1].sum;
 	tree[x].mx = max(tree[x*2].mx, tree[x*2+1].mx);
-	tree[x].mn = min(tree[x*2].mn, tree[x*2+1].mn);
 	return;
 }
 
