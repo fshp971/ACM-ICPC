@@ -15,9 +15,9 @@ const int maxn = 1e5;
 
 struct Tree
 {
-	int maxi[maxn*6+5];
-	int ll[maxn*6+5], rr[maxn*6+5];
-	bool lazy[maxn*6+5];
+	int maxi[maxn*4+5];
+	int ll[maxn*4+5], rr[maxn*4+5];
+	bool lazy[maxn*4+5];
 	
 	void build(int x, int l, int r)
 	{
