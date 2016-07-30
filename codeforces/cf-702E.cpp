@@ -11,6 +11,8 @@ using namespace std;
 #define sf scanf
 #define pf printf
 
+#define lld I64d
+
 const int maxn = 1e5, max_step = 34;
 
 int n, poi[maxn+5][max_step+5];
@@ -39,7 +41,8 @@ int main()
 	build();
 	for(int i=1; i<=n; ++i)
 	{
-		int rem = kk, now = i;
+		LL rem = kk;
+		int now = i;
 		LL ss = 0, mm = (LL)1<<62;
 		int k = 0;
 		while(rem)
