@@ -7,3 +7,4 @@ dc3算法
 後綴自動機
 區間第k大
 POJ 3693
+UVa-10829 Suffix Array + RMQ = ???
