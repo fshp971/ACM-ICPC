@@ -1,3 +1,12 @@
+/**************************************************************
+	Problem: 3224
+	User: fshp971
+	Language: C++
+	Result: Accepted
+	Time:380 ms
+	Memory:2224 kb
+****************************************************************/
+
 #include<bits/stdc++.h>
 
 using namespace std;
