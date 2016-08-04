@@ -1,3 +1,19 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define LL long long
+#define REP(i,a,b) for(int i=a;i<=b;++i)
+#define FOR(i,a,b) for(int i=a;i<b;++i)
+#define pii pair<int,int>
+#define mem(a,b) memset(a,b,sizeof(a))
+#define MP(a,b) make_pair(a,b)
+#define sf scanf
+#define pf printf
+
+const int maxn = 1e7;
+
+bool vis[maxn+5];
 int mu[maxn+5], prime[maxn+5];
 int G[maxn+5];
 
