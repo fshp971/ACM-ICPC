@@ -26,10 +26,11 @@ const int maxn = 10000;
 
 struct Node
 {
-	LL poi, dam;
+	LL poi;
+	int id;
 	char type; //type = 1 means open seg, type = 2 means close seg
-	Node(): poi(0), dam(0), type(0){}
-	Node(LL _poi, LL _dam, char _type){ poi = _poi, dam = _dam, type = _type; }
+	Node(): poi(0), type(0), id(0){}
+	Node(LL _poi, char _type, int _id){ poi = _poi, type = _type; id = _id; }
 	bool operator<(const Node &a) const
 	{
 		if(poi != a.poi) return poi < a.poi;
@@ -39,7 +40,9 @@ struct Node
 int top;
 
 LL TA, TB, X;
+LL dam[maxn*2+5];
 int n, m;
+char vis[maxn*2+5];
 
 int main()
 {
@@ -58,33 +61,32 @@ int main()
 		sum = 0;
 		REP(i,1,n)
 		{
-			sf("%lld%lld%lld", &ai, &aci, &dai);
+			sf("%lld%lld%lld", &ai, &aci, dam+i);
 			if(ai+aci < X || ai+aci > TB) continue;
 			LL l = ai+aci+aci;
 			LL tmp = (TB+1-ai) / aci;
 			if(tmp%2 == 0) ++tmp;
 			if(tmp*aci + ai <= TB) tmp += 2;
-			//pf("i = %d, tmp = %lld\n", i, tmp);
 			LL r = ai + (tmp-1) * aci;
-			sum += dai;
+			sum += dam[i];
 			if(r-l > TA)
 				continue;
-			arr[++top] = Node(l, -dai, 1);
-			arr[++top] = Node(r, dai, 2);
+			arr[++top] = Node(l, 1, i);
+			arr[++top] = Node(r, 2, i);
 		}
 		REP(i,1,m)
 		{
-			sf("%lld%lld%lld", &ai, &aci, &dai);
+			sf("%lld%lld%lld", &ai, &aci, dam+n+i);
 			LL l = ai+aci;
 			LL tmp = (TB+1-ai) / aci;
 			if(tmp%2 == 1) ++tmp;
 			if(tmp*aci + ai <= TB) tmp += 2;
 			LL r = ai + (tmp-1) * aci;
-			sum += dai;
+			sum += dam[n+i];
 			if(r-l > TA)
 				continue;
-			arr[++top] = Node(l, -dai, 1);
-			arr[++top] = Node(r, dai, 2);
+			arr[++top] = Node(l, 1, n+i);
+			arr[++top] = Node(r, 2, n+i);
 		}
 		sort(arr+1, arr+1+top);
 
@@ -101,8 +103,20 @@ int main()
 
 		ans = (LL)1 << 62;
 		head = 1;
+		mem(vis, 0);
 		for(int i=1; i<=top; ++i)
 		{
+			while(head<i && arr[i].poi - arr[head].poi > TA)
+			{
+				if(arr[head].type == 1)
+					sum += dam[arr[head].id], vis[arr[head].id] = 0;
+				++head;
+			}
+			if(arr[i].type == 1)
+				vis[arr[i].id] = 1;
+			else sum -= dam[arr[i].id];
+			ans = min(ans, sum);
+			/*
 			if(arr[i].type == 1)
 			{
 				sum += arr[i].dam;
@@ -116,14 +130,17 @@ int main()
 					sum += arr[head].dam;
 				++head;
 			}
+			pf("i = %d, sum = %lld\n", i, sum);
 
 			if(arr[i].poi >= TA)
 				ans = min(ans, sum);
 
 			while(i<=top && arr[i+1].poi == arr[i].poi)
 				++i;
+			*/
 		}
 		//pf("after: sum = %lld\n", sum);
+		/*
 		ans = min(ans, sum);
 		for(; head<=top; ++head)
 		{
@@ -132,6 +149,7 @@ int main()
 			ans = min(ans, sum);
 		}
 		ans = min(ans, sum);
+		*/
 		pf("%lld\n", ans);
 		//pf("ans = %lld\n", ans);
 	}
