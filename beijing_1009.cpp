@@ -71,6 +71,7 @@ int main()
 			sum += dam[i];
 			if(r-l > TA)
 				continue;
+			if(r<l) r = l;
 			arr[++top] = Node(l, 1, i);
 			arr[++top] = Node(r, 2, i);
 		}
@@ -85,18 +86,29 @@ int main()
 			sum += dam[n+i];
 			if(r-l > TA)
 				continue;
+			//pf("l = %lld, r = %lld\n", l, r);
+			if(r<l) r = l;
 			arr[++top] = Node(l, 1, n+i);
 			arr[++top] = Node(r, 2, n+i);
 		}
+
+		/*
+		for(int i=1; i<=top; ++i)
+		{
+			pf("arr[%d]: poi = %lld, dam = %lld, type = %d, id = %d\n", i, arr[i].poi, dam[arr[i].id], arr[i].type, arr[i].id);
+		}
+		pf("\n----------------------------\n\n");
+		*/
+
 		sort(arr+1, arr+1+top);
 
 		/*
+		pf("X = %lld, TB = %lld\n", X, TB);
 		pf("sum = %lld\n", sum);
-
 		pf("top = %d\n", top);
 		for(int i=1; i<=top; ++i)
 		{
-			pf("arr[%d]: poi = %lld, dam = %lld, type = %d\n", i, arr[i].poi, arr[i].dam, arr[i].type);
+			pf("arr[%d]: poi = %lld, dam = %lld, type = %d, id = %d\n", i, arr[i].poi, dam[arr[i].id], arr[i].type, arr[i].id);
 		}
 		pf("\n----------------------------\n\n");
 		*/
@@ -109,47 +121,13 @@ int main()
 			while(head<i && arr[i].poi - arr[head].poi > TA)
 			{
 				if(arr[head].type == 1)
-					sum += dam[arr[head].id], vis[arr[head].id] = 0;
+					sum += dam[arr[head].id];
 				++head;
 			}
-			if(arr[i].type == 1)
-				vis[arr[i].id] = 1;
-			else sum -= dam[arr[i].id];
-			ans = min(ans, sum);
-			/*
-			if(arr[i].type == 1)
-			{
-				sum += arr[i].dam;
-				while(i<=top && arr[i+1].poi == arr[i].poi && arr[i+1].type == 1)
-					sum += arr[++i].dam;
-			}
-
-			while(head<i && arr[i].poi-arr[head].poi > TA)
-			{
-				if(arr[head].type == 2)
-					sum += arr[head].dam;
-				++head;
-			}
-			pf("i = %d, sum = %lld\n", i, sum);
-
-			if(arr[i].poi >= TA)
-				ans = min(ans, sum);
-
-			while(i<=top && arr[i+1].poi == arr[i].poi)
-				++i;
-			*/
-		}
-		//pf("after: sum = %lld\n", sum);
-		/*
-		ans = min(ans, sum);
-		for(; head<=top; ++head)
-		{
-			if(arr[head].type == 2)
-				sum += arr[head].dam;
+			if(arr[i].type == 2)
+				sum -= dam[arr[i].id];
 			ans = min(ans, sum);
 		}
-		ans = min(ans, sum);
-		*/
 		pf("%lld\n", ans);
 		//pf("ans = %lld\n", ans);
 	}
