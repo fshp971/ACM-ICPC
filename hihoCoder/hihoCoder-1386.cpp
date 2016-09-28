@@ -97,10 +97,6 @@ int main()
 						{
 							g[c][j][k][l] += g[tc][tj][tk][tl];
 							g[c][j][k][l] = min(g[c][j][k][l], maxN);
-							/*
-							if(g[c][i][j][k][l] > maxN)
-								g[c][i][j][k][l] = maxN;
-							*/
 						}
 					}
 				}
@@ -113,10 +109,6 @@ int main()
 			{
 				int l = 10 - j - k;
 				if(l<1 || l>3) continue;
-				/*
-				if(l>3) continue;
-				if(l<1) break;
-				*/
 				if(!g[c][j][k][l]) continue;
 				if(f[c][j][k][l] > val)
 				{
@@ -128,7 +120,6 @@ int main()
 				{
 					N += g[c][j][k][l];
 					N = min(N, maxN);
-					//if(N > maxN) n = maxN;
 				}
 			}
 		}
