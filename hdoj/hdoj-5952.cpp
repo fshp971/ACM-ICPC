@@ -32,16 +32,6 @@ int h[maxn+5], e[maxm+5], nex[maxm+5];
 int sta[maxn+5];
 int ans;
 
-bool check()
-{
-	for(int i=1; i<size; ++i)
-		for(int k=i+1; k<=size; ++k)
-		{
-			if(!mmp[sta[i]][sta[k]]) return 0;
-		}
-	return 1;
-}
-
 void dfs(int rem, int now, int cont)
 {
 	if(cont == size)
