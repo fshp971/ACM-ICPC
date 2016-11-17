@@ -1,5 +1,5 @@
 //#include<cstdio>
-//cnm cstdio wa10+
+//cnm cstdio TLE10+
 #include<stdio.h>
 #include<cstdlib>
 #include<cstring>
