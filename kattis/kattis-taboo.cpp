@@ -58,12 +58,12 @@ struct AC_Auto
 			for(int i=0; i<c_size; ++i)
 			{
 				int &u = nex[x][i];
-				if(!u) { u = nex[fail[x]][i]; continue; }
+				if(!u) { u = nex[fail[x]][i]; continue; } //补上所有不存在的边
 				q.push(u);
 				int v = fail[x];
 				while(v && !nex[v][i]) v = fail[v];
 				fail[u] = nex[v][i];
-				match[u] |= match[fail[u]];
+				match[u] |= match[fail[u]]; //计算出所有终止结点
 			}
 		}
 	}
