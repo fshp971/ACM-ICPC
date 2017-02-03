@@ -3,8 +3,8 @@
     User: fshp971
     Language: C++
     Result: Accepted
-    Time:2500 ms
-    Memory:134588 kb
+    Time:2484 ms
+    Memory:130684 kb
 ****************************************************************/
 
 #include<bits/stdc++.h>
@@ -25,9 +25,8 @@ const int maxn = 5e5, c_size = 26;
 struct State
 {
 	int val, right;
-	int id;
 	State *par, *go[c_size+2];
-	void init() { val = right = id = 0, par = NULL, mem(go,0); }
+	void init() { val = right = 0, par = NULL, mem(go,0); }
 }que[maxn*2+5], *root, *last;
 int tot;
 
@@ -35,7 +34,6 @@ void Extend(int w)
 {
 	State *p = last, *np = &que[tot++];
 	np->init();
-	np->id = tot-1;
 	np->val = p->val+1, np->right = 1;
 	while(p!=NULL && p->go[w]==NULL)
 		p->go[w] = np, p = p->par;
@@ -48,7 +46,6 @@ void Extend(int w)
 		{
 			State *nq = &que[tot++];
 			*nq = *q;
-			nq->id = tot-1;
 			nq->right = 0;
 			nq->val = p->val+1;
 			np->par = q->par = nq;
