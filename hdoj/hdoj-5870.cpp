@@ -41,27 +41,18 @@ void Dij(int x, LL *dist, LL *cont)
 		x = que.front(), inq[x] = 0, que.pop();
 		for(int i=0; i<G[x].size(); ++i)
 		{
+			if(dist[x]+G[x][i].second > dist[G[x][i].first])
+				continue;
 			if(dist[x]+G[x][i].second < dist[G[x][i].first])
-			{
-				dist[G[x][i].first] = dist[x]+G[x][i].second;
 				cont[G[x][i].first] = cont[x];
-				if(!inq[G[x][i].first])
-				{
-					inq[G[x][i].first] = 1;
-					que.push(G[x][i].first);
-				}
-			}
-			else if(dist[x]+G[x][i].second == dist[G[x][i].first])
+			else cont[G[x][i].first] += cont[x];
+			if(cont[G[x][i].first]>X)
+				cont[G[x][i].first] = X;
+			dist[G[x][i].first] = dist[x]+G[x][i].second;
+			if(!inq[G[x][i].first])
 			{
-				cont[G[x][i].first] += cont[x];
-				if(cont[G[x][i].first] > X)
-					cont[G[x][i].first] = X;
-
-				if(!inq[G[x][i].first])
-				{
-					inq[G[x][i].first] = 1;
-					que.push(G[x][i].first);
-				}
+				inq[G[x][i].first] = 1;
+				que.push(G[x][i].first);
 			}
 		}
 	}
