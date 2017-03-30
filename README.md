@@ -7,7 +7,7 @@ fshp971的ACM代码
 数论函数，FWT，重刷SAM
 
 ## 数学
-CRT应用补完计划<\br>
+CRT应用补完计划<br>
 数论函数，莫比烏斯函數和欧拉函数的各种姿势
 pollard-rho
 快速沃尔什变换 FWT
