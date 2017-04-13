@@ -4,7 +4,7 @@ fshp971的ACM代码<br>
 # Todo List
 
 ## 近期计划
-数论函数，FWT，重刷SAM<br>
+数论函数（杜教筛），FWT，重刷SAM<br>
 
 ## 数学
 CRT应用补完计划<br>
@@ -16,6 +16,7 @@ Miller_Rabin隨機素數測試<br>
 組合數（lucas定理）<br>
 博弈論：零和博弈 非合作博弈 纳什均衡<br>
 51nod<br>
+康托展开<br>
 
 ## 杂
 dc3算法<br>
