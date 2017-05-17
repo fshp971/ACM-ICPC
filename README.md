@@ -4,7 +4,7 @@ fshp971的ACM代码<br>
 # Todo List
 
 ## 近期计划
-数论函数（杜教筛），FWT，重刷SAM<br>
+~~数论函数（杜教筛）~~，FWT，重刷SAM<br>
 
 ## 数学
 CRT应用补完计划<br>
