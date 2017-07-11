@@ -10,8 +10,6 @@ typedef long long LL;
 typedef pair<int,int> pii;
 typedef pair<LL,LL> pll;
 
-const LL Range = 1e14;
-
 LL Gcd(LL a, LL b) { return b ? Gcd(b, a%b) : a; }
 
 void Ex_Gcd(LL a, LL b, LL &g, LL &x, LL &y) {
