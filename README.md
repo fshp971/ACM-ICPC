@@ -4,16 +4,17 @@ fshp971的ACM代码<br>
 # Todo List
 
 ## 近期计划
-~~数论函数（杜教筛）~~，~~FWT~~，重刷SAM<br>
+重刷SAM<br>
 刷cf<br>
 clj计数<br>
 计蒜之道数学题待补<br>
+后缀数组LCP模板<br>
+多项式取模（多项式gcd）<br>
 
 ## 数学
 CRT应用补完计划<br>
 ~~数论函数，莫比烏斯函數和欧拉函数的各种姿势~~<br>
 pollard-rho<br>
-~~快速沃尔什变换 FWT~~<br>
 母函數<br>
 Miller_Rabin隨機素數測試<br>
 組合數（lucas定理）<br>
