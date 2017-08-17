@@ -14,7 +14,6 @@ const int md = 1e9 + 7;
 
 bool vis[maxn + 5];
 int prime[maxn + 5];
-LL S2[maxn + 5];
 LL mu[maxn + 5];
 
 void Mobius() {
@@ -59,12 +58,6 @@ void Init() {
 }
 
 int main() {
-	S2[0] = 0;
-	for(int i = 1; i <= maxn; ++i) {
-		S2[i] = S2[i-1] + i;
-		if(S2[i] >= md) S2[i] -= md;
-	}
-
 	Mobius();
 	Init();
 	int n;
