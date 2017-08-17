@@ -32,3 +32,4 @@ UVa-11019<br>
 hdu-5962（dp，java，BigDecimal，然而过不了orz）<br>
 POJ 3693<br>
 UVa-10829 Suffix Array + RMQ = ???<br>
+hdu-6120（多校2017 7）下标乘FFT中国剩余定理加速（看不懂啊）
