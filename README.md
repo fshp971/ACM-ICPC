@@ -5,6 +5,7 @@ fshp971的ACM代码<br>
 
 ## 近期计划
 51nod泛做<br>
+玄学数学的xjb搞法<br>
 shift-and字符串算法<br>
 重刷SAM<br>
 刷cf<br>
