@@ -4,24 +4,24 @@ fshp971的ACM代码<br>
 # Todo List
 
 ## 近期计划
-51nod泛做<br>
-玄学数学的xjb搞法<br>
-shift-and字符串算法<br>
+**51nod数学题泛做**<br>
+shift-and字符串算法**（整理一下板子）**<br>
 重刷SAM~~（好像刷的差不多了）~~<br>
-刷cf<br>
-#### 刷cf<br>
+**刷cf**<br>
 clj计数<br>
 计蒜之道数学题待补<br>
-后缀数组LCP模板<br>
+**后缀数组LCP模板**<br>
+**重刷AC自动机**<br>
+**重刷后缀数组**<br>
+**学习Manacher算法**<br>
 多项式取模（多项式gcd）<br>
+母函数~~看起来好像很好吃~~<br>
+**刷dp啊喂**<br>
 
 ## 数学
-~~CRT应用补完计划<br>~~
-~~数论函数，莫比烏斯函數和欧拉函数的各种姿势~~<br>
 pollard-rho<br>
 母函數<br>
 Miller_Rabin隨機素數測試<br>
-~~組合數（lucas定理）~~<br>
 博弈論：零和博弈 非合作博弈 纳什均衡<br>
 
 ## 杂
