@@ -55,8 +55,6 @@ int n, type, kk;
 char str[maxn + 5];
 int cont[maxn + 5], S[maxnode + 5];
 
-bool vist[maxnode + 5];
-
 int main() {
 	scanf("%s", str), n = strlen(str);
 	scanf("%d%d", &type, &kk);
