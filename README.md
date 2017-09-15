@@ -7,8 +7,9 @@ fshp971的ACM代码<br>
 51nod泛做<br>
 玄学数学的xjb搞法<br>
 shift-and字符串算法<br>
-重刷SAM<br>
+重刷SAM~~（好像刷的差不多了）~~<br>
 刷cf<br>
+### 刷cf<br>
 clj计数<br>
 计蒜之道数学题待补<br>
 后缀数组LCP模板<br>
