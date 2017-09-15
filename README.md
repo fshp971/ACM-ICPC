@@ -5,7 +5,7 @@ fshp971的ACM代码<br>
 
 ## 近期计划
 **51nod数学题泛做**<br>
-shift-and字符串算法**（整理一下板子）**<br>
+shift-and字符串算法 **（整理一下板子）**<br>
 重刷SAM ~~（好像刷的差不多了）~~<br>
 **刷cf**<br>
 clj计数<br>
