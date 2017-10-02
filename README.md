@@ -17,6 +17,7 @@ clj计数<br>
 多项式取模（多项式gcd）<br>
 母函数 ~~看起来好像很好吃~~<br>
 **刷dp啊喂**<br>
+2-sat<br>
 
 ## 数学
 pollard-rho<br>
