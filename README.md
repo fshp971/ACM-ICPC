@@ -6,6 +6,9 @@ Good Game * 2<br>
 老年选手即将开始最后一搏<br>
 
 # Todo List
+补k短路模版<br>
+类欧几里得<br>
+二次剩余<br>
 
 ## To Be Learned
 splay/lct<br>
