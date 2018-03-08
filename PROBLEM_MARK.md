@@ -13,6 +13,7 @@ cf-932E 生成函数<br>
 csa-round71-Losing-Nim 和按位有关的精巧dp<br>
 gym-101620G (CERC 2017) 有趣的概率/期望题<br>
 arc089-E 类线性规划题<br>
+gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
