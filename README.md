@@ -9,6 +9,9 @@ Good Game * 2<br>
 补k短路模版<br>
 类欧几里得<br>
 二次剩余<br>
+卡特兰数<br>
+大概要刷一下数位dp<br>
+学一下二维凸包<br>
 
 ## To Be Learned
 splay/lct<br>

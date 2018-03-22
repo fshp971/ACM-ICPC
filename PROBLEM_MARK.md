@@ -4,6 +4,9 @@
 hdu-6057 (Claris)<br>
 cf-914G<br>
 
+## 区间问题常见思路
+莫队分块 维护多项式 维护矩阵 取对数 泰勒展开<br>
+
 ## 一些带根号复杂度的题
 cf-914F (字符串) <br>
 hihoCoder-1629 (ICPC2017 北京) 莫队<br>
@@ -19,9 +22,12 @@ nowcoder-73E (Wannafly 11) 循环卷积NTT, 和毕姥爷出过的某题做法一
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
+Petrozavodsk Winter-2018 CMU Contest A - Mines 线段树优化建图, 经典套路<br>
 
 ## 智障DP
 nowcoder-73C (Wannafly 11) 轮廓线dp思想<br>
+Petrozavodsk Winter-2018 CMU Contest J  (重坑啊<br>
+Petrozavodsk Winter-2018 CMU Contest I  经典dp大杂烩<br>
 
 ## 智商题
 XVII Open Cup ~~~ Moscow Workshops E - Jumping is Fun 考虑答案的二进制表示<br>
@@ -31,8 +37,13 @@ bzoj-3926 诸神们的幻想乡 经典魔改SAM<br>
 XVII Open Cup ~~~ Moscow Workshops F - Online LCS 魔改SAM<br>
 
 ## 类欧几里得算法待做题
-bzoj-3817
-bzoj-2187
-bzoj-2712
-bzoj-2987
-bzoj-1938
+bzoj-3817<br>
+bzoj-2187<br>
+bzoj-2712<br>
+bzoj-2987<br>
+bzoj-1938<br>
+
+## 线段树优化建图
+bzoj-3073<br>
+bzoj-5017<br>
+cf-786B<br>
