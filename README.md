@@ -12,6 +12,7 @@ Good Game * 2<br>
 卡特兰数<br>
 大概要刷一下数位dp<br>
 学一下二维凸包<br>
+准备最小圆覆盖模版<br>
 
 ## To Be Learned
 splay/lct<br>
