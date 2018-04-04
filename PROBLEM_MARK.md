@@ -16,22 +16,27 @@ cf-932E 生成函数<br>
 csa-round71-Losing-Nim 和按位有关的精妙dp<br>
 gym-101620G (CERC 2017) 有趣的概率/期望题<br>
 arc089-E 类线性规划题<br>
-gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
 nowcoder-73F (Wannafly 11) 分治NTT, 优先队列优化<br>
 nowcoder-73E (Wannafly 11) 循环卷积NTT, 和毕姥爷出过的某题做法一样<br>
 XVII Open Cup ---- Two Capitals H - Sophie’s Sets 搜索剪枝 (别负优化<br>
+Petrozavodsk Winter-2018. Jagiellonian U Contest J (对数乱搞<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
 Petrozavodsk Winter-2018 CMU Contest A - Mines 线段树优化建图, 经典套路<br>
+bzoj-2286 虚树裸题<br>
+Petrozavodsk Winter-2018. Jagiellonian U Contest K 启发式合并复杂度稳定O(nlogn)<br>
 
 ## 智障DP
 nowcoder-73C (Wannafly 11) 轮廓线dp思想<br>
 Petrozavodsk Winter-2018 CMU Contest J  (重坑啊<br>
 Petrozavodsk Winter-2018 CMU Contest I  经典dp大杂烩<br>
+nowcoder-79D (Wannafly 12) 矩阵计数 (好像很经典啊<br>
 
 ## 智商题
+gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
 XVII Open Cup ---- Moscow Workshops E - Jumping is Fun 考虑答案的二进制表示<br>
+nowcoder-79E (Wannafly 12) 智商图论转换<br>
 
 ## xjb字符串
 bzoj-3926 诸神们的幻想乡 经典魔改SAM<br>
@@ -43,7 +48,7 @@ XVII Open Cup ---- Moscow Workshops F - Online LCS 魔改SAM<br>
 于是可以先正向反向分别爆搜前几步, 若此时仍无解则再爆搜全图 (玄学调参即可通过<br>
 
 ## 类欧几里得算法待做题
-bzoj-3817<br>
+~~bzoj-3817~~<br>
 bzoj-2187<br>
 bzoj-2712<br>
 bzoj-2987<br>
@@ -53,3 +58,7 @@ bzoj-1938<br>
 bzoj-3073<br>
 bzoj-5017<br>
 cf-786B<br>
+
+## 虚树
+bzoj-3572<br>
+~~bzoj-3991~~<br>
