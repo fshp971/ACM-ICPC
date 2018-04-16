@@ -15,7 +15,7 @@ Good Game * 2<br>
 ~~学习虚树~~ ~~准备模板~~ DONE<br>
 **简单计算几何**<br>
 莫队算法<br>
-树链剖分<br>
+树链剖分(准备模板)<br>
 FFT以及相结合的各种题<br>
 
 ## To Be Learned
@@ -66,3 +66,4 @@ hdu-5962（dp，java，BigDecimal，然而过不了orz）<br>
 POJ 3693<br>
 UVa-10829 Suffix Array + RMQ = ???<br>
 hdu-6120（多校2017 7）下标乘FFT中国剩余定理加速（看不懂啊喂）<br>
+XVIII Open Cup ---- Khamovniki D 平衡树, 替罪羊树<br>
