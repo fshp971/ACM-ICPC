@@ -21,6 +21,7 @@ nowcoder-73E (Wannafly 11) 循环卷积NTT, 和毕姥爷出过的某题做法一
 XVII Open Cup ---- Two Capitals H - Sophie’s Sets 搜索剪枝 (别负优化<br>
 Petrozavodsk Winter-2018. Jagiellonian U Contest J (对数乱搞<br>
 cf-961G 斯特林数<br>
+gym-101234D (16-17国立台湾大学WF选拔 by dreamoon) 树分治计数, FFT优化, 比较有意思<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>

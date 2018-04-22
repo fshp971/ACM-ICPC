@@ -67,3 +67,4 @@ POJ 3693<br>
 UVa-10829 Suffix Array + RMQ = ???<br>
 hdu-6120（多校2017 7）下标乘FFT中国剩余定理加速（看不懂啊喂）<br>
 XVIII Open Cup ---- Khamovniki D 平衡树, 替罪羊树<br>
+hdu-4093 FFT(不太可做)<br>
