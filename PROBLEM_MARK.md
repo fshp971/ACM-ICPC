@@ -22,12 +22,19 @@ XVII Open Cup ---- Two Capitals H - Sophie’s Sets 搜索剪枝 (别负优化<b
 Petrozavodsk Winter-2018. Jagiellonian U Contest J (对数乱搞<br>
 cf-961G 斯特林数<br>
 gym-101234D (16-17国立台湾大学WF选拔 by dreamoon) 树分治计数, FFT优化, 比较有意思<br>
+hdu-5885 2016青岛online 二维坐标压成一维后进行FFT, 卡精度<br>
+kattis - Probe Droids (NAIPC 2018 F) Stern–Brocot Tree & 类欧几里得<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
 Petrozavodsk Winter-2018 CMU Contest A - Mines 线段树优化建图, 经典套路<br>
 bzoj-2286 虚树裸题<br>
 Petrozavodsk Winter-2018. Jagiellonian U Contest K 启发式合并复杂度稳定O(nlogn)<br>
+#### nowcoder-104I 湖北省赛
+首先将边的存在区间离线到线段树上(区间id直接用vector存), 之后回答询问相当于是在线段树上dfs<br>
+dfs时, 通过栈来维护一个可回滚操作的并查集, 栈保存每次修改前的结点的相关信息<br>
+由于此时的并查集不能进行路径压缩, 故应进行启发式合并, 这样可证明每次find操作是O(logn)的<br>
+总时间复杂度大概是O(m(logm)(logn))<br>
 
 ## 智障DP
 nowcoder-73C (Wannafly 11) 轮廓线dp思想<br>
@@ -39,6 +46,8 @@ nowcoder-79D (Wannafly 12) 矩阵计数 (好像很经典啊<br>
 gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
 XVII Open Cup ---- Moscow Workshops E - Jumping is Fun 考虑答案的二进制表示<br>
 nowcoder-79E (Wannafly 12) 智商图论转换<br>
+Petrozavodsk Winter-2018. Korea L - XOR Transformation 观察特性找规律 (观察能力不够优秀啊<br>
+
 
 ## xjb字符串
 bzoj-3926 诸神们的幻想乡 经典魔改SAM<br>

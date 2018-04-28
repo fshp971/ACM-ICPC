@@ -60,6 +60,12 @@ pollard-rho<br>
 Miller_Rabin隨機素數測試<br>
 博弈論：零和博弈 非合作博弈 纳什均衡<br>
 
+## 计算几何坑点
+在使用反三角函数acos(), asin()时一定要检查输入值是否在函数值域( [-1,1] )内<br>
+对于输出答案为0的数, 一定要手动判0, 否则可能会输出"-0"导致PE或WA<br>
+尽可能减少sqrt或除法的使用以提高精度<br>
+浮点数应typedef一个DB类型, 这样可以方便在卡精度时切换long double<br>
+
 ## 待填坑
 UVa-11019<br>
 hdu-5962（dp，java，BigDecimal，然而过不了orz）<br>
@@ -68,3 +74,4 @@ UVa-10829 Suffix Array + RMQ = ???<br>
 hdu-6120（多校2017 7）下标乘FFT中国剩余定理加速（看不懂啊喂）<br>
 XVIII Open Cup ---- Khamovniki D 平衡树, 替罪羊树<br>
 hdu-4093 FFT(不太可做)<br>
+Petrozavodsk Winter 2018 -- Korea: J,K<br>
