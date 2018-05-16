@@ -24,6 +24,8 @@ cf-961G 斯特林数<br>
 gym-101234D (16-17国立台湾大学WF选拔 by dreamoon) 树分治计数, FFT优化, 比较有意思<br>
 hdu-5885 2016青岛online 二维坐标压成一维后进行FFT, 卡精度<br>
 kattis - Probe Droids (NAIPC 2018 F) Stern–Brocot Tree & 类欧几里得<br>
+bzoj-2187 形式特别的类欧<br>
+bzoj-1938 类欧几里得, 思路比较有意思, 将模运算变换成减法<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
@@ -66,10 +68,10 @@ cf-962F 通过维护dfs序找环, 思想值得学习<br>
 
 ## 类欧几里得算法待做题
 ~~bzoj-3817~~<br>
-bzoj-2187<br>
+~~bzoj-2187~~<br>
 bzoj-2712<br>
-bzoj-2987<br>
-bzoj-1938<br>
+~~bzoj-2987~~<br>
+~~bzoj-1938~~<br>
 
 ## 线段树优化建图
 bzoj-3073<br>
@@ -81,5 +83,6 @@ bzoj-3572<br>
 ~~bzoj-3991~~<br>
 
 ## Waitting
+bzoj-5217<br>
 Tsukuba 2017<br>
 Tsukuba 2016<br>

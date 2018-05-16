@@ -17,6 +17,7 @@ Good Game * 2<br>
 莫队算法<br>
 树链剖分(准备模板)<br>
 FFT以及相结合的各种题<br>
+最大权闭合子图<br>
 
 ## To Be Learned
 splay/lct<br>
