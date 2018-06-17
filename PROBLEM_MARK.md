@@ -9,7 +9,7 @@ cf-914G<br>
 
 ## 一些带根号复杂度的题
 cf-914F (字符串) <br>
-hihoCoder-1629 (ICPC2017 北京) 莫队<br>
+hihoCoder-1629 (ICPC2017 北京) 莫队 (有空再做一遍)<br>
 
 ## 杂乱数学题
 cf-932E 生成函数<br>
@@ -82,7 +82,21 @@ cf-786B<br>
 bzoj-3572<br>
 ~~bzoj-3991~~<br>
 
-## Waitting
+## Pending List
 bzoj-5217<br>
 Tsukuba 2017<br>
 Tsukuba 2016<br>
+cf-985 F<br>
+cf-986 C D E<br>
+cf-963 D E<br>
+gym-101611B<br>
+bzoj-3073<br>
+bzoj-3339<br>
+xjb-training-9<br>
+xjb-training-10 B I<br>
+xjb-training-11<br>
+xjb-training-12 M (学网络流)<br>
+xjb-training-13 CCPC-FINAL<br>
+xjb-training-14 ECL-FINAL<br>
+SWERC-2017 (Claris博客有题解)<br>
+计蒜之道2018复赛<br>
