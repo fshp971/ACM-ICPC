@@ -26,6 +26,7 @@ hdu-5885 2016青岛online 二维坐标压成一维后进行FFT, 卡精度<br>
 kattis - Probe Droids (NAIPC 2018 F) Stern–Brocot Tree & 类欧几里得<br>
 bzoj-2187 形式特别的类欧<br>
 bzoj-1938 类欧几里得, 思路比较有意思, 将模运算变换成减法<br>
+hdu-6270 (CCPC2017 杭州) 容斥, NTT计算, 好题<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
@@ -37,6 +38,7 @@ Petrozavodsk Winter-2018. Jagiellonian U Contest K 启发式合并复杂度稳�
 dfs时, 通过栈来维护一个可回滚操作的并查集, 栈保存每次修改前的结点的相关信息<br>
 由于此时的并查集不能进行路径压缩, 故应进行启发式合并, 这样可证明每次find操作是O(logn)的<br>
 总时间复杂度大概是O(m(logm)(logn))<br>
+cf-986E 素因数分解, 需要正确分析复杂度, 好题<br>
 
 ## 智障DP
 nowcoder-73C (Wannafly 11) 轮廓线dp思想<br>
@@ -83,12 +85,12 @@ bzoj-3572<br>
 ~~bzoj-3991~~<br>
 
 ## Pending List
-bzoj-5217<br>
+~~bzoj-5217~~<br>
 Tsukuba 2017<br>
 Tsukuba 2016<br>
-cf-985 F<br>
-cf-986 C D E<br>
-cf-963 D E<br>
+~~cf-985 F~~<br>
+~~cf-986 C,E~~<br>
+cf-963 ~~D~~ E<br>
 gym-101611B<br>
 bzoj-3073<br>
 bzoj-3339<br>
@@ -100,3 +102,5 @@ xjb-training-13 CCPC-FINAL<br>
 xjb-training-14 ECL-FINAL<br>
 SWERC-2017 (Claris博客有题解)<br>
 计蒜之道2018复赛<br>
+cf-505D<br>
+SCUT 2018 暑假训练热身赛<br>
