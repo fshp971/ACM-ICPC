@@ -27,6 +27,7 @@ kattis - Probe Droids (NAIPC 2018 F) Stern–Brocot Tree & 类欧几里得<br>
 bzoj-2187 形式特别的类欧<br>
 bzoj-1938 类欧几里得, 思路比较有意思, 将模运算变换成减法<br>
 hdu-6270 (CCPC2017 杭州) 容斥, NTT计算, 好题<br>
+nc-140J (牛客多校day2) 二进制分解瞎搞<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
@@ -51,6 +52,8 @@ gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
 XVII Open Cup ---- Moscow Workshops E - Jumping is Fun 考虑答案的二进制表示<br>
 nowcoder-79E (Wannafly 12) 智商图论转换<br>
 Petrozavodsk Winter-2018. Korea L - XOR Transformation 观察特性找规律 (观察能力不够优秀啊<br>
+nc-139A (牛客多校day1) 思维题, 观察得组合意义<br>
+nc-139B (牛客多校day1) 思维题, 观察矩阵实际意义<br>
 
 
 ## xjb字符串
@@ -104,3 +107,5 @@ SWERC-2017 (Claris博客有题解)<br>
 计蒜之道2018复赛<br>
 cf-505D<br>
 SCUT 2018 暑假训练热身赛<br>
+bzoj-3551<br>
+51nod-1236 序列求和系列题<br>
