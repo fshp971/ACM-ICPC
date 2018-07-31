@@ -65,6 +65,7 @@ XVII Open Cup ---- Moscow Workshops F - Online LCS 魔改SAM<br>
 无向图多点对最短路查询, 由数据的随机性知大部分最短路不会太长<br>
 于是可以先正向反向分别爆搜前几步, 若此时仍无解则再爆搜全图 (玄学调参即可通过<br>
 cf-962F 通过维护dfs序找环, 思想值得学习<br>
+cf-1009G 巧妙应用Hall定理<br>
 
 ## 神题
 #### XVII Open Cup ---- Khamovniki J - Stairways
