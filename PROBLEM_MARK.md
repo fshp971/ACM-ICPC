@@ -28,6 +28,7 @@ bzoj-2187 形式特别的类欧<br>
 bzoj-1938 类欧几里得, 思路比较有意思, 将模运算变换成减法<br>
 hdu-6270 (CCPC2017 杭州) 容斥, NTT计算, 好题<br>
 nc-140J (牛客多校day2) 二进制分解瞎搞<br>
+hdu-6353, nowcoder-145I 树分治计数方法值得学习<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
@@ -40,12 +41,14 @@ dfs时, 通过栈来维护一个可回滚操作的并查集, 栈保存每次修�
 由于此时的并查集不能进行路径压缩, 故应进行启发式合并, 这样可证明每次find操作是O(logn)的<br>
 总时间复杂度大概是O(m(logm)(logn))<br>
 cf-986E 素因数分解, 需要正确分析复杂度, 好题<br>
+hdu-6333 (hdu多校2018 day4) 莫队 (可是为什么现场看不出来呢...<br>
 
 ## 智障DP
 nowcoder-73C (Wannafly 11) 轮廓线dp思想<br>
 Petrozavodsk Winter-2018 CMU Contest J  (重坑啊<br>
 Petrozavodsk Winter-2018 CMU Contest I  经典dp大杂烩<br>
 nowcoder-79D (Wannafly 12) 矩阵计数 (好像很经典啊<br>
+hdu-6365 极角排序真有趣<br>
 
 ## 智商题
 gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
@@ -54,6 +57,7 @@ nowcoder-79E (Wannafly 12) 智商图论转换<br>
 Petrozavodsk Winter-2018. Korea L - XOR Transformation 观察特性找规律 (观察能力不够优秀啊<br>
 nc-139A (牛客多校day1) 思维题, 观察得组合意义<br>
 nc-139B (牛客多校day1) 思维题, 观察矩阵实际意义<br>
+hdu-6326 (hdu多校2018 day3) 根据性质贪心, 转换成子问题, 逐步缩小规模<br>
 
 
 ## xjb字符串
@@ -66,6 +70,7 @@ XVII Open Cup ---- Moscow Workshops F - Online LCS 魔改SAM<br>
 于是可以先正向反向分别爆搜前几步, 若此时仍无解则再爆搜全图 (玄学调参即可通过<br>
 cf-962F 通过维护dfs序找环, 思想值得学习<br>
 cf-1009G 巧妙应用Hall定理<br>
+hdu-6350 by SkyWalkerT 仙人掌图转成树来做, 比较有趣<br>
 
 ## 神题
 #### XVII Open Cup ---- Khamovniki J - Stairways
@@ -110,3 +115,11 @@ cf-505D<br>
 SCUT 2018 暑假训练热身赛<br>
 bzoj-3551<br>
 51nod-1236 序列求和系列题<br>
+cf-gym-100959A<br>
+https://www.codechef.com/problems/BTREE<br>
+loj-2469<br>
+cerc 14-15 L<br>
+hnoi-2010 动态树<br>
+nowcoder-145I (牛客多校7) 等数据对拍<br>
+hdu-6444 不知道错哪儿了啊（<br>
+hdu-6359 大型数据结构题, 有空再补<br>
