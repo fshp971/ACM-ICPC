@@ -29,6 +29,8 @@ bzoj-1938 类欧几里得, 思路比较有意思, 将模运算变换成减法<br
 hdu-6270 (CCPC2017 杭州) 容斥, NTT计算, 好题<br>
 nc-140J (牛客多校day2) 二进制分解瞎搞<br>
 hdu-6353, nowcoder-145I 树分治计数方法值得学习<br>
+hdu-6372(多校6 K) 将原矩阵当成邻接矩阵后转换成图论, 再观察组合意义求解. 思路类似nc-139B(叉姐牛客多校)<br>
+bzoj-5217 二维转一维FFT<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
@@ -42,6 +44,7 @@ dfs时, 通过栈来维护一个可回滚操作的并查集, 栈保存每次修�
 总时间复杂度大概是O(m(logm)(logn))<br>
 cf-986E 素因数分解, 需要正确分析复杂度, 好题<br>
 hdu-6333 (hdu多校2018 day4) 莫队 (可是为什么现场看不出来呢...<br>
+luogu-3960 (NOIP2017 D2T3) jls的题, 强行上splay可过<br>
 
 ## 智障DP
 nowcoder-73C (Wannafly 11) 轮廓线dp思想<br>
@@ -89,17 +92,9 @@ bzoj-3073<br>
 bzoj-5017<br>
 cf-786B<br>
 
-## 虚树
-bzoj-3572<br>
-~~bzoj-3991~~<br>
-
 ## Pending List
-~~bzoj-5217~~<br>
 Tsukuba 2017<br>
 Tsukuba 2016<br>
-~~cf-985 F~~<br>
-~~cf-986 C,E~~<br>
-cf-963 ~~D~~ E<br>
 gym-101611B<br>
 bzoj-3073<br>
 bzoj-3339<br>
