@@ -37,14 +37,24 @@ cf-935F 复杂线段树<br>
 Petrozavodsk Winter-2018 CMU Contest A - Mines 线段树优化建图, 经典套路<br>
 bzoj-2286 虚树裸题<br>
 Petrozavodsk Winter-2018. Jagiellonian U Contest K 启发式合并复杂度稳定O(nlogn)<br>
+
 #### nowcoder-104I 湖北省赛
 首先将边的存在区间离线到线段树上(区间id直接用vector存), 之后回答询问相当于是在线段树上dfs<br>
 dfs时, 通过栈来维护一个可回滚操作的并查集, 栈保存每次修改前的结点的相关信息<br>
 由于此时的并查集不能进行路径压缩, 故应进行启发式合并, 这样可证明每次find操作是O(logn)的<br>
 总时间复杂度大概是O(m(logm)(logn))<br>
+
 cf-986E 素因数分解, 需要正确分析复杂度, 好题<br>
 hdu-6333 (hdu多校2018 day4) 莫队 (可是为什么现场看不出来呢...<br>
 luogu-3960 (NOIP2017 D2T3) jls的题, 强行上splay可过<br>
+gym-101889D odt乱搞<br>
+
+#### bzoj-4262
+一个经典套路题. 首先离线将询问Q(l1,r1,l2,r2)拆成(Q(l1,r1,r2)-Q(l1,r2,l2-1))<br>
+然后问题转化成求给定左端点区间[l,r], 右端点取[1,x]时的答案Q(l,r,x)<br>
+然后就可以从小到大枚举x, 并用单调栈维护单增(单减)序列, 由于原数列的随机性, 使得单调栈期望深度为O(logn)<br>
+因此对每个x分段更新线段树, 总时间复杂度O(nlog(logn))<br>
+类似的题目: 计蒜客-31712 (ICPC2018 焦作网赛C), bzoj-4540<br>
 
 ## 智障DP
 nowcoder-73C (Wannafly 11) 轮廓线dp思想<br>
@@ -61,7 +71,7 @@ Petrozavodsk Winter-2018. Korea L - XOR Transformation 观察特性找规律 (�
 nc-139A (牛客多校day1) 思维题, 观察得组合意义<br>
 nc-139B (牛客多校day1) 思维题, 观察矩阵实际意义<br>
 hdu-6326 (hdu多校2018 day3) 根据性质贪心, 转换成子问题, 逐步缩小规模<br>
-
+hdu-6387 (hdu多校2018 day7 by UESTC) 做法非常巧妙, 需要先将解所满足的性质用数学语言表述出, 然后再优化找解的过程<br>
 
 ## xjb字符串
 bzoj-3926 诸神们的幻想乡 经典魔改SAM<br>
@@ -74,6 +84,8 @@ XVII Open Cup ---- Moscow Workshops F - Online LCS 魔改SAM<br>
 cf-962F 通过维护dfs序找环, 思想值得学习<br>
 cf-1009G 巧妙应用Hall定理<br>
 hdu-6350 by SkyWalkerT 仙人掌图转成树来做, 比较有趣<br>
+hdu-5960 (ICPC2016 沈阳) k长路, 建图思想是关键, 可用来测k长(短)路模板<br>
+poj-2449 比较好的k短路模板测试题, 含重边, 自环, 图不保证连通<br>
 
 ## 神题
 #### XVII Open Cup ---- Khamovniki J - Stairways
