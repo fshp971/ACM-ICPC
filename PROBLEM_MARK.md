@@ -63,6 +63,9 @@ Petrozavodsk Winter-2018 CMU Contest I  经典dp大杂烩<br>
 nowcoder-79D (Wannafly 12) 矩阵计数 (好像很经典啊<br>
 hdu-6365 极角排序真有趣<br>
 
+## 弱鸡几何
+zoj-4000 合理转换问题同时注意边界; atan2(y,x)可以直接求出(x,y)在(-Pi,Pi]范围内对应的弧度(当然要小心处理边界)<br>
+
 ## 智商题
 gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
 XVII Open Cup ---- Moscow Workshops E - Jumping is Fun 考虑答案的二进制表示<br>
