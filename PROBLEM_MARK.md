@@ -31,12 +31,15 @@ nc-140J (牛客多校day2) 二进制分解瞎搞<br>
 hdu-6353, nowcoder-145I 树分治计数方法值得学习<br>
 hdu-6372(多校6 K) 将原矩阵当成邻接矩阵后转换成图论, 再观察组合意义求解. 思路类似nc-139B(叉姐牛客多校)<br>
 bzoj-5217 二维转一维FFT<br>
+zoj-3982 (CCPC 2017 秦皇岛) 卡特兰数dp<br>
+CodeChef - MANCBST 打表找规律, 推出递推式(类似伯努利数的递推形式), 然后多项式求逆<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
 Petrozavodsk Winter-2018 CMU Contest A - Mines 线段树优化建图, 经典套路<br>
 bzoj-2286 虚树裸题<br>
 Petrozavodsk Winter-2018. Jagiellonian U Contest K 启发式合并复杂度稳定O(nlogn)<br>
+hdu-5993 (ICPC2016 青岛) (czk出线题) 树上dfs序维护区间点集直径, 需要RMQ预处理实现O(1)查询LCA (hdu又卡时间又卡空间, 现场可能不需要)<br>
 
 #### nowcoder-104I 湖北省赛
 首先将边的存在区间离线到线段树上(区间id直接用vector存), 之后回答询问相当于是在线段树上dfs<br>
@@ -65,6 +68,7 @@ hdu-6365 极角排序真有趣<br>
 
 ## 弱鸡几何
 zoj-4000 合理转换问题同时注意边界; atan2(y,x)可以直接求出(x,y)在(-Pi,Pi]范围内对应的弧度(当然要小心处理边界)<br>
+cf-1059D 注意相对误差<br>
 
 ## 智商题
 gym-101620K (CERC 2017) 差分, 思路极其巧妙<br>
