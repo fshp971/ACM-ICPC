@@ -33,6 +33,7 @@ hdu-6372(多校6 K) 将原矩阵当成邻接矩阵后转换成图论, 再观察�
 bzoj-5217 二维转一维FFT<br>
 zoj-3982 (CCPC 2017 秦皇岛) 卡特兰数dp<br>
 CodeChef - MANCBST 打表找规律, 推出递推式(类似伯努利数的递推形式), 然后多项式求逆<br>
+hdu-4344 Miller Rabin素性检测, Pollared-Rho素数分解, 的优秀的测板题<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
@@ -40,6 +41,7 @@ Petrozavodsk Winter-2018 CMU Contest A - Mines 线段树优化建图, 经典套�
 bzoj-2286 虚树裸题<br>
 Petrozavodsk Winter-2018. Jagiellonian U Contest K 启发式合并复杂度稳定O(nlogn)<br>
 hdu-5993 (ICPC2016 青岛) (czk出线题) 树上dfs序维护区间点集直径, 需要RMQ预处理实现O(1)查询LCA (hdu又卡时间又卡空间, 现场可能不需要)<br>
+hdu-5994 (ICPC2016 青岛) 一道具代表性的KD-tree, 深刻展现了KD-tree胡乱剪枝的精髓(然而出题人可能不太会英语, 题面全程不说人话)<br>
 
 #### nowcoder-104I 湖北省赛
 首先将边的存在区间离线到线段树上(区间id直接用vector存), 之后回答询问相当于是在线段树上dfs<br>
@@ -65,6 +67,7 @@ Petrozavodsk Winter-2018 CMU Contest J  (重坑啊<br>
 Petrozavodsk Winter-2018 CMU Contest I  经典dp大杂烩<br>
 nowcoder-79D (Wannafly 12) 矩阵计数 (好像很经典啊<br>
 hdu-6365 极角排序真有趣<br>
+hdu-5735 (hdu多校2016) 通过将二进制分拆成前8位和后8位来平衡复杂度, 使得单次计算答案和更新dp数组复杂度均为2^8<br>
 
 ## 弱鸡几何
 zoj-4000 合理转换问题同时注意边界; atan2(y,x)可以直接求出(x,y)在(-Pi,Pi]范围内对应的弧度(当然要小心处理边界)<br>
@@ -94,6 +97,7 @@ cf-1009G 巧妙应用Hall定理<br>
 hdu-6350 by SkyWalkerT 仙人掌图转成树来做, 比较有趣<br>
 hdu-5960 (ICPC2016 沈阳) k长路, 建图思想是关键, 可用来测k长(短)路模板<br>
 poj-2449 比较好的k短路模板测试题, 含重边, 自环, 图不保证连通<br>
+nowcoder-203I (wannafly camp 2018 day3) 做法有点妙。。直接拿所有关键点作为源点跑最短路, 记录每个点是从哪个关键点扩展而来的, 然后枚举所有边, 如果某条边两端点分别从不同源点扩展而来, 就更新一下答案<br>
 
 ## 神题
 #### XVII Open Cup ---- Khamovniki J - Stairways
