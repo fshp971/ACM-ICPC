@@ -71,6 +71,7 @@ Petrozavodsk Winter-2018 CMU Contest I  经典dp大杂烩<br>
 nowcoder-79D (Wannafly 12) 矩阵计数 (好像很经典啊<br>
 hdu-6365 极角排序真有趣<br>
 hdu-5735 (hdu多校2016) 通过将二进制分拆成前8位和后8位来平衡复杂度, 使得单次计算答案和更新dp数组复杂度均为2^8<br>
+gym-101981B (ICPC2018南京 B) 王钦石二分<br>
 
 ## 弱鸡几何
 zoj-4000 合理转换问题同时注意边界; atan2(y,x)可以直接求出(x,y)在(-Pi,Pi]范围内对应的弧度(当然要小心处理边界)<br>
