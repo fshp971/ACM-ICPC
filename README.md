@@ -6,6 +6,7 @@ Good Game * 2<br>
 老年选手即将开始最后一搏<br>
 
 # Todo List
+**准备类欧模板([coffee chicken](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=32154316))**<br>
 二次剩余<br>
 ~~卡特兰数~~DONE<br>
 ~~学一下二维凸包~~抄板（<br>

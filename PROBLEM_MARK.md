@@ -35,6 +35,7 @@ zoj-3982 (CCPC 2017 秦皇岛) 卡特兰数dp<br>
 CodeChef - MANCBST 打表找规律, 推出递推式(类似伯努利数的递推形式), 然后多项式求逆<br>
 hdu-4344 Miller Rabin素性检测, Pollared-Rho素数分解, 的优秀的测板题<br>
 hdu-6275 (CCPC 2016 杭州) 类欧瞎搞<br>
+XIX Open Cup GP of SPb C - Clique Festival 牛逼计数<br>
 
 ## 爆炸数据结构
 cf-935F 复杂线段树<br>
@@ -146,5 +147,6 @@ loj-2469<br>
 cerc 14-15 L<br>
 hnoi-2010 动态树<br>
 nowcoder-145I (牛客多校7) 等数据对拍<br>
-hdu-6444 不知道错哪儿了啊（<br>
+hdu-6444 不知道错哪儿了啊(<br>
 hdu-6359 大型数据结构题, 有空再补<br>
+hdu-4656 大都会赛L原题(?)<br>
