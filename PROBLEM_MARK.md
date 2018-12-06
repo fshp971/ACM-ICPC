@@ -89,6 +89,7 @@ hdu-6326 (hdu多校2018 day3) 根据性质贪心, 转换成子问题, 逐步缩�
 hdu-6387 (hdu多校2018 day7 by UESTC) 做法非常巧妙, 需要先将解所满足的性质用数学语言表述出, 然后再优化找解的过程<br>
 cf-1041F 观察性质, 推出结论<br>
 hdu-1055 根据性质贪心, 将结点权值合并到其父节点上, 转换成子问题缩小规模, hdu-6326和本题类似<br>
+nowcoder-148B (2018 牛客多校10 by jls) 二进制优化暴力+线段树维护一些东西<br>
 
 ## xjb字符串
 bzoj-3926 诸神们的幻想乡 经典魔改SAM<br>
@@ -132,7 +133,7 @@ bzoj-3339<br>
 xjb-training-9<br>
 xjb-training-10 B I<br>
 xjb-training-11<br>
-xjb-training-12 M (学网络流)<br>
+~~xjb-training-12 M (学网络流)~~<br>
 xjb-training-13 CCPC-FINAL<br>
 xjb-training-14 ECL-FINAL<br>
 SWERC-2017 (Claris博客有题解)<br>
