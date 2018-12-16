@@ -2,8 +2,14 @@
 fshp971的ACM代码<br>
 
 Good Game * 2<br>
-~~GG * 3预定~~<br>
-老年选手即将开始最后一搏<br>
+GG * 3<br>
+~~老年选手即将开始最后一搏~~<br>
+ICPC Shenyang Gold (6th)<br>
+CCPC Guilin Silver<br>
+ICPC Qingdao Silver<br>
+ICPC Xian EC Final Silver<br>
+
+Thank you all.<br>
 
 # Todo List
 **准备类欧模板([coffee chicken](https://ac.nowcoder.com/acm/contest/view-submission?submissionId=32154316))**<br>
