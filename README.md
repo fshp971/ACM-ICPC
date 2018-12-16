@@ -4,10 +4,11 @@ fshp971的ACM代码<br>
 Good Game * 2<br>
 GG * 3<br>
 ~~老年选手即将开始最后一搏~~<br>
-ICPC Shenyang Gold (6th)<br>
-CCPC Guilin Silver<br>
-ICPC Qingdao Silver<br>
-ICPC Xian EC Final Silver<br>
+
+ICPC 2018 Shenyang, Gold (Rank 6)<br>
+CCPC 2018 Guilin, Silver<br>
+ICPC 2018 Qingdao, Silver<br>
+ICPC 2018 Xian EC Final, Silver<br>
 
 Thank you all.<br>
 
